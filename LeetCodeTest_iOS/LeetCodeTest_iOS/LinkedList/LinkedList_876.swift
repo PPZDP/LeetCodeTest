@@ -17,7 +17,7 @@ class LinkedList_876: NSObject {
         
         var node = head
         var len = 1
-        
+        //找到长度
         while node?.next != nil {
             len += 1
             node = node?.next
@@ -26,7 +26,7 @@ class LinkedList_876: NSObject {
         let index = len/2
         node = head
         if len%2==0 {
-            //表示有俩个 取index,返回最后一个
+            //表示有俩个中间值 取index,返回最后一个
             for _ in 1..<index {
                 node = node?.next
             }
@@ -45,7 +45,7 @@ class LinkedList_876: NSObject {
         
     }
     
-    
+    //利用快慢指针实现
     func middleNode2(_ head: ListNode?) -> ListNode? {
         var slow = head
         var quick = head
