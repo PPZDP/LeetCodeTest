@@ -13,23 +13,30 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let test  = LinkedList_234()
+        let test  = LinkedList_21()
         
         let node = ListNode(1)
         node.next = ListNode(2);
-        node.next?.next = ListNode(2)
-        node.next?.next?.next = ListNode(1)
-//        node.next?.next?.next?.next = ListNode(1)
-//        node.next?.next?.next?.next?.next = ListNode(5)
-//        node.next?.next?.next?.next?.next?.next = ListNode(6)
-        let newNode = test.isPalindrome(node)
+        node.next?.next = ListNode(4)
+//        node.next?.next?.next = ListNode(11)
+        //        node.next?.next?.next?.next = ListNode(1)
+        //        node.next?.next?.next?.next?.next = ListNode(5)
+        //        node.next?.next?.next?.next?.next?.next = ListNode(6)
         
-        print(newNode)
         
-        //        while newNode != nil {
-        //            print("val:\(newNode!.val) ")
-        //            newNode = newNode?.next;
-        //        }
+        let node2 = ListNode(1)
+        node2.next = ListNode(3);
+        node2.next?.next = ListNode(4)
+//        node2.next?.next?.next = ListNode(13)
+        
+        
+        
+        var newNode = test.mergeTwoLists2(node, node2)
+
+        while newNode != nil {
+            print("val:\(newNode!.val) ")
+            newNode = newNode?.next;
+        }
     }
     
     //     func printNode(_ node: ListNode) -> Void {
