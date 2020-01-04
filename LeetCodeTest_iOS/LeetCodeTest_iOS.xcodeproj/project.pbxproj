@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6132FD223C032B600856FB1 /* LinkedList_141.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6132FD123C032B600856FB1 /* LinkedList_141.swift */; };
+		C6132FD423C03DA600856FB1 /* LinkedList_203.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6132FD323C03DA600856FB1 /* LinkedList_203.swift */; };
 		C637B03823BAEF1800146879 /* LinkedList_876.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637B03723BAEF1800146879 /* LinkedList_876.swift */; };
 		C6414AFD23BF05B4001D8622 /* LinkedList_21.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6414AFC23BF05B4001D8622 /* LinkedList_21.swift */; };
 		C682EAB723BDD4CB00DF7610 /* LinkedList_234.swift in Sources */ = {isa = PBXBuildFile; fileRef = C682EAB623BDD4CB00DF7610 /* LinkedList_234.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6132FD123C032B600856FB1 /* LinkedList_141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList_141.swift; sourceTree = "<group>"; };
+		C6132FD323C03DA600856FB1 /* LinkedList_203.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList_203.swift; sourceTree = "<group>"; };
 		C637B03723BAEF1800146879 /* LinkedList_876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList_876.swift; sourceTree = "<group>"; };
 		C6414AFC23BF05B4001D8622 /* LinkedList_21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList_21.swift; sourceTree = "<group>"; };
 		C682EAB623BDD4CB00DF7610 /* LinkedList_234.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList_234.swift; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 				C637B03723BAEF1800146879 /* LinkedList_876.swift */,
 				C682EAB623BDD4CB00DF7610 /* LinkedList_234.swift */,
 				C6414AFC23BF05B4001D8622 /* LinkedList_21.swift */,
+				C6132FD123C032B600856FB1 /* LinkedList_141.swift */,
+				C6132FD323C03DA600856FB1 /* LinkedList_203.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -177,6 +183,8 @@
 			files = (
 				C6C7287F23B6F5D50077F94E /* ViewController.swift in Sources */,
 				C6C7289E23B7011B0077F94E /* LinkedList_206.swift in Sources */,
+				C6132FD423C03DA600856FB1 /* LinkedList_203.swift in Sources */,
+				C6132FD223C032B600856FB1 /* LinkedList_141.swift in Sources */,
 				C6C7289B23B6FF770077F94E /* LinkedList_92.swift in Sources */,
 				C6414AFD23BF05B4001D8622 /* LinkedList_21.swift in Sources */,
 				C6C7287B23B6F5D50077F94E /* AppDelegate.swift in Sources */,
