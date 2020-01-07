@@ -13,17 +13,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let test  = LinkedList_203()
+        let test  = LinkedList_83()
         
-        let node = ListNode(10)
-        let node1 = ListNode(2)
+        let node = ListNode(1)
+        let node1 = ListNode(1)
         let node2 = ListNode(2)
-        let node3 = ListNode(2)
-        let node4 = ListNode(3)
+//        let node3 = ListNode(3)
+//        let node4 = ListNode(3)
         node.next = node1;
         node.next?.next = node2
-        node.next?.next?.next = node3
-        node.next?.next?.next?.next = node4
+//        node.next?.next?.next = node3
+//        node.next?.next?.next?.next = node4
 //        node.next?.next?.next?.next = node1
         
         
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         
         
         
-        var newNode = test.removeElements(node,2)
+        var newNode = test.deleteDuplicates(node)
         
         
 //        print(newNode)

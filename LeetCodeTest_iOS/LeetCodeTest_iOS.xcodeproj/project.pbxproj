@@ -22,6 +22,7 @@
 		C6C7289B23B6FF770077F94E /* LinkedList_92.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C7289423B6F7B40077F94E /* LinkedList_92.swift */; };
 		C6C7289C23B6FF7A0077F94E /* LinkedList_61.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C7289723B6FC910077F94E /* LinkedList_61.swift */; };
 		C6C7289E23B7011B0077F94E /* LinkedList_206.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C7289D23B7011B0077F94E /* LinkedList_206.swift */; };
+		C6DDE37C23C434F8008C0A5D /* LinkedList_83.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DDE37B23C434F8008C0A5D /* LinkedList_83.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		C6C7289423B6F7B40077F94E /* LinkedList_92.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList_92.swift; sourceTree = "<group>"; };
 		C6C7289723B6FC910077F94E /* LinkedList_61.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList_61.swift; sourceTree = "<group>"; };
 		C6C7289D23B7011B0077F94E /* LinkedList_206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList_206.swift; sourceTree = "<group>"; };
+		C6DDE37B23C434F8008C0A5D /* LinkedList_83.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList_83.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				C6414AFC23BF05B4001D8622 /* LinkedList_21.swift */,
 				C6132FD123C032B600856FB1 /* LinkedList_141.swift */,
 				C6132FD323C03DA600856FB1 /* LinkedList_203.swift */,
+				C6DDE37B23C434F8008C0A5D /* LinkedList_83.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				C6C7287D23B6F5D50077F94E /* SceneDelegate.swift in Sources */,
 				C682EAB723BDD4CB00DF7610 /* LinkedList_234.swift in Sources */,
 				C6C7289A23B6FF720077F94E /* ListNode.swift in Sources */,
+				C6DDE37C23C434F8008C0A5D /* LinkedList_83.swift in Sources */,
 				C637B03823BAEF1800146879 /* LinkedList_876.swift in Sources */,
 				C6C7289C23B6FF7A0077F94E /* LinkedList_61.swift in Sources */,
 			);

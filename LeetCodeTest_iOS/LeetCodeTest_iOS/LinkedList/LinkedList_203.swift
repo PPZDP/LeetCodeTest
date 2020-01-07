@@ -10,10 +10,7 @@ import UIKit
 ///https://leetcode-cn.com/problems/remove-linked-list-elements/
 class LinkedList_203: NSObject {
       func removeElements(_ head: ListNode?, _ val: Int) -> ListNode? {
-          
-          
-          
-          
+
           let newNode = ListNode(0)
           
           
